@@ -1,0 +1,68 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/BuildingCardVisualizer.gd" type="Script" id=1]
+
+[node name="Building" type="Node2D"]
+script = ExtResource( 1 )
+card = "res://Cards/Plaza.gd"
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 392.0
+margin_top = 176.0
+margin_right = 480.0
+margin_bottom = 320.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel"]
+margin_left = 24.0
+margin_right = 64.0
+margin_bottom = 14.0
+text = "Name"
+
+[node name="Nature" type="Label" parent="Panel"]
+margin_right = 16.0
+margin_bottom = 14.0
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Happiness" type="Label" parent="Panel"]
+margin_left = 32.0
+margin_top = 14.0
+margin_right = 56.0
+margin_bottom = 28.0
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Money" type="Label" parent="Panel"]
+margin_left = 72.0
+margin_right = 88.0
+margin_bottom = 14.0
+text = "0"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Effect" type="RichTextLabel" parent="Panel"]
+margin_top = 96.0
+margin_right = 88.0
+margin_bottom = 144.0
+text = "Effect"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="Panel"]
+margin_top = 40.0
+margin_right = 88.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,88 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Images/Playmat.jpg" type="Texture" id=1]
+
+[node name="PlayLocal" type="Node2D"]
+
+[node name="Layout" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Polygon2D" type="Polygon2D" parent="Layout"]
+scale = Vector2( 1.483, 1 )
+color = Color( 0.129412, 0.482353, 0.129412, 1 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 0, 8, 690.492, 0, 688, 608, -2.60465, 608 )
+
+[node name="ColorRect" type="ColorRect" parent="Layout"]
+margin_left = -3.8627
+margin_top = 288.0
+margin_right = 1020.14
+margin_bottom = 328.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect2" type="ColorRect" parent="Layout"]
+margin_top = 120.0
+margin_right = 1024.0
+margin_bottom = 160.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect3" type="ColorRect" parent="Layout"]
+margin_left = -3.8627
+margin_top = 488.0
+margin_right = 1020.14
+margin_bottom = 528.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Layout"]
+margin_left = 472.0
+margin_top = 72.0
+margin_right = 512.0
+margin_bottom = 88.0
+text = "Hand"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Layout"]
+margin_left = 464.0
+margin_top = 552.0
+margin_right = 504.0
+margin_bottom = 568.0
+text = "Hand"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="Layout"]
+margin_left = 464.0
+margin_top = 400.0
+margin_right = 504.0
+margin_bottom = 414.0
+text = "P1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label4" type="Label" parent="Layout"]
+margin_left = 472.0
+margin_top = 224.0
+margin_right = 512.0
+margin_bottom = 255.0
+text = "P2
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
