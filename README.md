@@ -1,2 +1,0 @@
-# CityCards
-A card game
